@@ -26,7 +26,11 @@ export default function App() {
       <Text style={styles.text}>
         Open up App.tsx to start working on your app!
       </Text>
-      <StatusBar />
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
     </View>
   );
 }
